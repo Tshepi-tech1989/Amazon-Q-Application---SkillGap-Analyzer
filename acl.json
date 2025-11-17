@@ -1,0 +1,22 @@
+[
+  {
+    "keyPrefix": "s3://udacitytrainingbuckettshepangmache/",
+    "aclEntries": [
+      {
+        "Name": "career.coach.one",
+        "Type": "USER",
+        "Access": "ALLOW"
+      },
+      {
+        "Name": "career.coach.two",
+        "Type": "USER",
+        "Access": "ALLOW"
+      },
+      {
+        "Name": "CareerCoaches",
+        "Type": "GROUP",
+        "Access": "ALLOW"
+      }
+    ]
+  }
+]
