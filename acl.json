@@ -18,5 +18,20 @@
         "Access": "ALLOW"
       }
     ]
+  },
+  {
+    "keyPrefix": "s3://udacitytrainingbuckettshepangmache/",
+    "aclEntries": [
+      {
+        "Name": "*",
+        "Type": "USER",
+        "Access": "DENY"
+      },
+      {
+        "Name": "*",
+        "Type": "GROUP",
+        "Access": "DENY"
+      }
+    ]
   }
 ]
